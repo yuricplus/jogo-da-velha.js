@@ -1,0 +1,46 @@
+button {
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    margin: 0;
+    padding: 17px;
+}
+
+button.char-x {
+    color: red;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+span.char-o {
+    color: blue;
+}
+
+span.char-x {
+    color: red;
+}
+
+button.char-o {
+    color: blue;
+}
+
+div {
+    margin: 0;
+    height: 60px;
+}
+
+body {
+    width: 300px;
+    margin: 100px auto;
+    max-width: 100%;
+}
+
+body, * {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
