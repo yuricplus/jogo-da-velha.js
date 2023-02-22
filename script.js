@@ -53,7 +53,7 @@ class Game {
 
     compare(lineChecked) {
         const widInLine = this.rules[JSON.stringify(lineChecked)];
-        console.log(lineChecked)
+        console.log('LINE',lineChecked)
         if(widInLine) {
             if(confirm('ganhou FDP!')){
                 location.reload();
@@ -70,8 +70,9 @@ class Game {
                     if(this.current === el) {
                         lineChecked.push(index)
 
-                        if(index === 0) {
+                        if(index === tbIndex) {
                             colunmnChecked.push(tbIndex);
+                            console.log(index, tbIndex)
                             if(tbIndex === 2) {
                                 this.compare(colunmnChecked)
                                 colunmnChecked = []
